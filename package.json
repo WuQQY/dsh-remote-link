@@ -5,10 +5,10 @@
   "type": "module",
   "description": "用手机打开本机 DeepSeek Harness：扫码即用，手机号 + 动态码登录，可对话、可审批、可改权限",
   "license": "MIT",
-  "homepage": "https://github.com/local/dsh-remote-link",
+  "homepage": "https://github.com/WuQQY/dsh-remote-link",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/local/dsh-remote-link.git"
+    "url": "git+https://github.com/WuQQY/dsh-remote-link.git"
   },
   "engines": {
     "dsh": ">=0.2.0"
