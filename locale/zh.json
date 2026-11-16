@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "title": "远程链接",
+    "description": "用手机浏览器打开这台电脑的 DSH：扫码即用，手机号 + 验证器动态码登录，可对话、可审批、可改权限。",
+    "detail": "docs/DETAIL.md"
+  },
+  "settings": {
+    "remoteLink": {
+      "nav": "远程链接"
+    }
+  }
+}

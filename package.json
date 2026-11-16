@@ -1,0 +1,50 @@
+{
+  "name": "dsh-remote-link",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "用手机打开本机 DeepSeek Harness：扫码即用，手机号 + 动态码登录，可对话、可审批、可改权限",
+  "license": "MIT",
+  "homepage": "https://github.com/local/dsh-remote-link",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/local/dsh-remote-link.git"
+  },
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "lib",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "bin"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

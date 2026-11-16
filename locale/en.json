@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "title": "Remote link",
+    "description": "Open this computer's DSH from a phone browser: scan to connect, sign in with a phone number and an authenticator code, then chat, approve, and change permissions.",
+    "detail": "docs/DETAIL.md"
+  },
+  "settings": {
+    "remoteLink": {
+      "nav": "Remote link"
+    }
+  }
+}

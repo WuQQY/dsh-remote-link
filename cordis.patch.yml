@@ -1,0 +1,8 @@
+# 这一层只做一件事：把插件自己挂进 profile 的树里。
+#
+# 为什么只需要一行：这个插件的能力全部由它自己注册 —— 宿主的 `webServer` 上挂
+# `/api/remote-link/*` 与登录门那条回环桥接，客户端那一半注册设置页与侧边栏入口。
+# 不插别人的行、不改别人的配置，卸载就是这一行没了。
+- insert:
+    - id: remote-link
+      name: dsh-remote-link
