@@ -7,11 +7,6 @@ bin/cloudflared.exe
 .credentials*
 *.secret
 
-# 内部开发记录：含本机绝对路径与调试过程，不对外发布（文件仍保留在本地）
-代码审查报告.md
-修复记录.md
-使用说明.md
-
 # 运行时产物
 *.log
 node_modules/
